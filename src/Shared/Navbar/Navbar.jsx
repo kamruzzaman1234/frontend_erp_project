@@ -10,7 +10,7 @@ const Navbar = () => {
                     <div className="flex items-center space-x-2">
                         <Link
                             to="/dashboard"
-                            className="text-2xl font-bold uppercase text-green-500 "
+                            className="text-[18px] font-bold uppercase text-green-500 "
                         >
                             ERP Project
                         </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
                                 key={item.name}
                                 to={item.path}
                                 className={({ isActive }) =>
-                                    `uppercase font-medium tracking-wide px-2 py-1 transition-all duration-300
+                                    `uppercase font-medium text-[13px] tracking-wide px-2 py-1 transition-all duration-300
                   ${isActive
                                         ? "text-yellow-500"
                                         : "text-gray-700 hover:text-yellow-400"
@@ -79,7 +79,7 @@ const Navbar = () => {
 
                     {/* Call-to-action Button */}
                     <div className="hidden lg:flex">
-                        <button className="border-[1.5px] broder-black px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-lg hover:text-white font-medium transition-all duration-300">
+                        <button className="border-[1.5px] text-[14px] border-yellow-400 text-yellow-300 px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-lg hover:text-white font-medium transition-all duration-300">
                             Contact Us
                         </button>
                     </div>
