@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import data from "../../data/data.json";
+import Contact from "../../components/Contact/Contact";
 
 
 const ProjectDetails = () => {
@@ -172,6 +173,8 @@ const ProjectDetails = () => {
             </div>
         </div>
         
+        <Contact></Contact>
+
         </div>
     );
 };

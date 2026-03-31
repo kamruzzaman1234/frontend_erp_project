@@ -1,6 +1,7 @@
 
 import data from "../../data/data.json";
 
+
 const TaskTeam = () => {
     const projects = data.company.projects;
 
@@ -42,7 +43,7 @@ const TaskTeam = () => {
                     </div>
                 </div>
             </div>
-
+            
             
         </div>
     );

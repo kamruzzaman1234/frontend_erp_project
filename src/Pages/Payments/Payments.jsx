@@ -1,6 +1,7 @@
 
 import data from "../../data/data.json";
 
+
 const Payments = () => {
     const projects = data.company.projects;
 
@@ -123,7 +124,7 @@ const Payments = () => {
 
                 </div>
             </div>
-
+            
             
         </div>
     );
