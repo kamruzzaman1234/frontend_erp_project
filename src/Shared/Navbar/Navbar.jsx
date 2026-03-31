@@ -10,7 +10,7 @@ const Navbar = () => {
                     <div className="flex items-center space-x-2">
                         <Link
                             to="/"
-                            className="text-[18px] font-bold uppercase text-green-500 "
+                            className="text-[18px] font-bold  text-green-500 "
                         >
                             JFE Ltd
                         </Link>

@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import data from "../../data/data.json"
 import { FaEye } from "react-icons/fa";
+import Contact from "../../Components/Contact/Contact";
 
 const ProjectPage = () => {
     const projects = data.company.projects;
 
     return (
-        <div className="py-[80px] bg-gray-50 py-8">
+        <div>
+            <div className="py-[80px] bg-gray-50 py-8">
             <div className="max-w-screen-xl mx-auto px-4">
                 <div className="flex flex-col gap-10">
 
@@ -121,6 +123,9 @@ const ProjectPage = () => {
                 </div>
             </div>
         </div>
+        <Contact></Contact>
+    </div>
+    
     );
 };
 

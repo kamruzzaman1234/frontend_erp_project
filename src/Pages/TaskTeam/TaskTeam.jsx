@@ -1,3 +1,4 @@
+import Contact from "../../Components/Contact/Contact";
 import data from "../../data/data.json";
 
 const TaskTeam = () => {
@@ -15,7 +16,8 @@ const TaskTeam = () => {
     const pending = allTasks.filter((t) => t.progress === 0);
 
     return (
-        <div className="py-[80px] bg-[#f8fafc] min-h-screen">
+        <div>
+            <div className="py-[80px] bg-[#f8fafc] min-h-screen">
             <div className="max-w-screen-xl mx-auto px-4 space-y-10">
 
                 {/* Title */}
@@ -38,6 +40,8 @@ const TaskTeam = () => {
                 </div>
             </div>
         </div>
+        <Contact></Contact>
+    </div>
     );
 };
 
