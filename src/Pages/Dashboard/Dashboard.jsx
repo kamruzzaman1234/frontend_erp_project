@@ -44,7 +44,7 @@ const Dashboard = () => {
 
             {/* Sidebar */}
             <div
-                className={`fixed md:static z-50 top-0 left-0 h-full bg-white shadow-lg transition-all duration-300
+                className={`fixed md:fixed z-50 top-0 left-0 h-full bg-white shadow-lg transition-all duration-300
         ${sidebarOpen ? "w-64 translate-x-0" : "w-64 -translate-x-full md:translate-x-0 md:w-20"}`}
             >
                 <div className="flex items-center justify-between px-4 py-4 border-b">
@@ -68,7 +68,8 @@ const Dashboard = () => {
             </div>
 
             {/* Main */}
-            <div className="flex-1 w-full p-4 sm:p-6 md:p-8 overflow-y-auto">
+            <div className="max-w-screen-xl mx-auto w-full">
+                <div className="flex-1 w-full p-4 sm:p-6 md:p-8 overflow-y-auto">
 
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
@@ -167,6 +168,7 @@ const Dashboard = () => {
                     </div>
                 </div>
 
+            </div>
             </div>
         </div>
     );
