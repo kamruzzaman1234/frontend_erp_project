@@ -12,7 +12,7 @@ const Navbar = () => {
                             to="/"
                             className="text-[18px] font-bold  text-green-500 "
                         >
-                            JFE Ltd
+                            ERP
                         </Link>
                     </div>
 

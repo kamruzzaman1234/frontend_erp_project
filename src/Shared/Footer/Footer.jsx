@@ -4,7 +4,7 @@ const Footer = () => {
            <div className="max-w-screen-xl mx-auto px-4">
                  <footer className="footer sm:footer-horizontal  text-base-content p-10">
                 <aside>
-                    <h4 class="text-lg font-bold text-green-400">JFE Ltd.</h4>
+                    <h4 class="text-lg font-bold text-green-400">ERP</h4>
                     <p>
                         Providing reliable tech since 1992
                     </p>
