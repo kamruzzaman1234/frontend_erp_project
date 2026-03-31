@@ -108,7 +108,7 @@ const ProjectDetails = () => {
                             {teams.map((team) => (
                                 <div
                                     key={team.teamId}
-                                    className="border p-4 rounded-lg hover:shadow transition"
+                                    className="shadow-xl p-4 rounded-lg transition"
                                 >
                                     <h4 className="font-semibold text-gray-800 mb-2">
                                         {team.name}
@@ -133,7 +133,7 @@ const ProjectDetails = () => {
                         {tasks.map((task) => (
                             <div
                                 key={task.taskId}
-                                className="border p-4 rounded-lg hover:shadow transition"
+                                className=" p-4 rounded-lg hover:shadow transition"
                             >
                                 <div className="flex justify-between items-center mb-2">
                                     <h4 className="font-semibold text-gray-800">

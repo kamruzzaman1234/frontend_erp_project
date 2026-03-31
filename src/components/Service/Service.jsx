@@ -17,7 +17,7 @@ const Service = () => {
 
                            
                             <img
-                                src="https://i.ibb.co.com/99DYZGr7/h5.jpg"
+                                src="https://i.ibb.co.com/mhZbQGn/pexels-fotoaibe-1571468.jpg"
                                 alt="main"
                                 className="w-full h-full object-cover rounded-xl shadow-2xl"
                             />
