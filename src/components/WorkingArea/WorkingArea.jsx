@@ -7,9 +7,7 @@ const WorkingArea = () => {
 
                 {/* Section Title */}
                 <div className="mb-12 text-left">
-                    <h2 className="text-[20px] uppercase md:text-[20px] font-bold text-black">
-                        U.S. Certified Contractors
-                    </h2>
+                    <h2 className="text-[18px] md:text-2xl font-bold text-black uppercase">U.S. Certified Contractors</h2>
                     <div className="w-16 h-[3px] bg-yellow-400 mt-2"></div>
                 </div>
 
