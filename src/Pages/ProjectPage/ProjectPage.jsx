@@ -6,7 +6,7 @@ const ProjectPage = () => {
     const projects = data.company.projects;
 
     return (
-        <div className="py-[80px] bg-gray-50 min-h-screen">
+        <div className="py-[80px] bg-gray-50 py-8">
             <div className="max-w-screen-xl mx-auto px-4">
                 <div className="flex flex-col gap-10">
 
@@ -19,7 +19,7 @@ const ProjectPage = () => {
                     </div>
 
                     {/* Table Card */}
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden ">
 
                         <table className="w-full">
                             {/* Table Head */}
@@ -53,7 +53,7 @@ const ProjectPage = () => {
                                     return (
                                         <tr
                                             key={projectId}
-                                            className="border-b hover:bg-gray-50 transition duration-300"
+                                            className="hover:bg-gray-50 transition duration-300"
                                         >
                                             {/* Project Name */}
                                             <td className="p-4 font-semibold text-gray-800">
