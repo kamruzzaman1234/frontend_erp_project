@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import data from "../../data/data.json";
 
+
 const ProjectDetails = () => {
     const { id } = useParams();
     const projects = data.company.projects;
@@ -16,7 +17,8 @@ const ProjectDetails = () => {
     const percentage = Math.round((budget.spent / budget.total) * 100);
 
     return (
-        <div className="py-[80px] bg-gray-50 min-h-screen">
+        <div>
+            <div className="py-[80px] bg-gray-50 min-h-screen">
             <div className="max-w-screen-xl mx-auto px-4 space-y-8">
 
                 {/* Header */}
@@ -168,6 +170,8 @@ const ProjectDetails = () => {
                 </div>
 
             </div>
+        </div>
+        
         </div>
     );
 };

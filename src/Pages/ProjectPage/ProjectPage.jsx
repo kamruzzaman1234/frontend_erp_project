@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import data from "../../data/data.json"
 import { FaEye } from "react-icons/fa";
-import Contact from "../../Components/Contact/Contact";
+
 
 const ProjectPage = () => {
     const projects = data.company.projects;
@@ -123,7 +123,7 @@ const ProjectPage = () => {
                 </div>
             </div>
         </div>
-        <Contact></Contact>
+        
     </div>
     
     );

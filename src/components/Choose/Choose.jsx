@@ -23,19 +23,23 @@ const Choose = () => {
     ];
 
     return (
-        <section className="py-20 bg-gray-50">
-            <div className="max-w-screen-xl mx-auto px-6 md:px-20 text-center">
+        <section className="py-16 md:py-20 bg-gray-50">
+            <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-20 text-center">
+
                 {/* Title */}
-                <h2 className="text-[18px] md:text-2xl font-bold text-black uppercase">Why Choose us</h2>
-                        <div className="w-16 mx-auto h-[3px] bg-yellow-400 mt-2"></div>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black uppercase">
+                    Why Choose Us
+                </h2>
+                <div className="w-16 h-[3px] bg-yellow-400 mt-2 mx-auto"></div>
                 <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
                     From small renovations to major projects, we provide reliable and professional construction services.
                 </p>
 
-                {/* Main Content */}
-                <div className="mt-12 relative grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                {/* Features & Image */}
+                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+
                     {/* Left Features */}
-                    <div className="flex flex-col gap-6 md:items-end">
+                    <div className="flex flex-col gap-6 md:items-end order-2 md:order-1">
                         {features.slice(0, 2).map((feature, index) => (
                             <div key={index} className="text-right md:max-w-xs">
                                 <div className="flex items-center justify-end gap-3 text-2xl">
@@ -48,16 +52,16 @@ const Choose = () => {
                     </div>
 
                     {/* Center Image */}
-                    <div className="flex justify-center">
+                    <div className="flex justify-center order-1 md:order-2">
                         <img
                             src="https://i.ibb.co.com/sqdrtYM/pexels-jvdm-1457842.jpg"
                             alt="Construction"
-                            className="rounded-xl shadow-xl w-80 md:w-96"
+                            className="rounded-xl shadow-xl w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
                         />
                     </div>
 
                     {/* Right Features */}
-                    <div className="flex flex-col gap-6 md:items-start">
+                    <div className="flex flex-col gap-6 md:items-start order-3">
                         {features.slice(2, 4).map((feature, index) => (
                             <div key={index} className="text-left md:max-w-xs">
                                 <div className="flex items-center gap-3 text-2xl">
