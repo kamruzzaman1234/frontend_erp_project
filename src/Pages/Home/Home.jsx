@@ -8,6 +8,7 @@ const Home = ()=>{
                 <Banner></Banner>
                 <Feature></Feature>
                 <WorkingArea></WorkingArea>
+               
         </div>  
     )
 }
