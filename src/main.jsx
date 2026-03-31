@@ -7,6 +7,9 @@ import Main from './LayOut/Main.jsx';
 import Home from './Pages/Home/Home.jsx';
 import ProjectPage from './Pages/ProjectPage/ProjectPage.jsx';
 import ProjectDetails from './Pages/ProjectPage/ProjectDetails.jsx';
+import TaskTeam from './Pages/TaskTeam/TaskTeam.jsx';
+import Payments from './Pages/Payments/Payments.jsx';
+import Dashboard from './Pages/Dashboard/Dashboard.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,10 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
+        path:'/dashboard',
+        element:<Dashboard></Dashboard>
+      },
+      {
         path: '/projects',
         element: <ProjectPage></ProjectPage>
       },
@@ -25,6 +32,14 @@ const router = createBrowserRouter([
         path: "/projects/:id",   
         element: <ProjectDetails></ProjectDetails>
       },
+      {
+        path:'/tasks',
+        element:<TaskTeam></TaskTeam>
+      },
+      {
+        path:'/payments',
+        element:<Payments></Payments>
+      }
     ]
   }
 ])
